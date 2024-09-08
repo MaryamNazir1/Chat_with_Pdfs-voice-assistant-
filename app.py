@@ -11,7 +11,7 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 from utils import autoplay_audio, transcribe_audio, generate_speech
 import google.generativeai as genai  # Ensure this import is present
-
+st.set_page_config(page_title="Interact with Your Documents", page_icon="📝")
 def load_env():
     load_dotenv()
     genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
