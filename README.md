@@ -17,7 +17,7 @@ Ensure that you have Python 3.8+ installed on your machine.
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/document-voice-assistant.git
+   git clone https://github.com/maryamnazir1/document-voice-assistant.git
    cd document-voice-assistant
    ```
 
